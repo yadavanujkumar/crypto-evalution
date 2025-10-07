@@ -62,6 +62,41 @@ This will:
 3. Create a sample portfolio with performance metrics
 4. Generate visualization charts in the `charts/` directory
 
+### Using the CLI Tool
+
+For quick analysis from the command line:
+
+```bash
+# Cryptocurrency analysis
+python cli.py crypto overview
+python cli.py crypto top --number 5 --period 7d
+python cli.py crypto worst --number 10
+python cli.py crypto search --symbol btc
+
+# Stock market analysis
+python cli.py stock overview
+python cli.py stock gainers --number 5
+python cli.py stock losers --number 10
+python cli.py stock search --name Apple
+python cli.py stock volatile --number 5
+```
+
+### Running Examples
+
+See usage examples:
+
+```bash
+python examples.py
+```
+
+### Running Tests
+
+Execute unit tests:
+
+```bash
+python -m unittest test_fintech.py
+```
+
 ### Using Individual Modules
 
 #### Data Loading
@@ -138,6 +173,9 @@ viz.plot_stock_performance(stock_data, n=10)
 ```
 crypto-evalution/
 ├── fintech_app.py           # Main application entry point
+├── cli.py                   # Command-line interface tool
+├── examples.py              # Usage examples
+├── test_fintech.py          # Unit tests
 ├── data_loader.py           # Data loading and preprocessing
 ├── crypto_analyzer.py       # Cryptocurrency analysis module
 ├── stock_analyzer.py        # Stock market analysis module
