@@ -235,11 +235,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Author
-
-Created by [yadavanujkumar](https://github.com/yadavanujkumar)
-
-## Acknowledgments
-
-- Market data sourced from cryptocurrency.csv and stocks.csv
-- Built with Python and popular data science libraries
