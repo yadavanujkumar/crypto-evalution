@@ -3,21 +3,6 @@
 ## Overview
 A comprehensive Python-based fintech application for analyzing cryptocurrency and stock market data from CSV files. This platform provides market insights, portfolio tracking, and data visualization capabilities.
 
-## Technology Stack
-- **Language**: Python 3.12+
-- **Data Processing**: pandas, numpy
-- **Visualization**: matplotlib, seaborn
-- **CLI**: argparse, tabulate
-
-## Project Metrics
-
-### Code Statistics
-- **Total Python Files**: 8 modules + 3 scripts
-- **Lines of Code**: ~800+ lines
-- **Functions/Methods**: 50+
-- **Classes**: 6 main classes
-- **Test Coverage**: 11 unit tests (100% passing)
-
 ### Data Coverage
 - **Cryptocurrency Records**: 109,146 entries
 - **Stock Records**: 164,718 entries
@@ -179,13 +164,6 @@ Managers can:
 - ✓ Asset allocation percentages
 - ✓ All 11 tests passing
 
-### Code Quality
-- PEP 8 compliant
-- Comprehensive docstrings
-- Type hints where applicable
-- Error handling throughout
-- Modular design
-
 ## Installation & Deployment
 
 ### Prerequisites
@@ -246,6 +224,3 @@ The modular architecture makes it easy to extend and customize, while the includ
 ## License
 MIT License - See LICENSE file for details
 
-## Author
-Created by yadavanujkumar
-GitHub: https://github.com/yadavanujkumar/crypto-evalution
